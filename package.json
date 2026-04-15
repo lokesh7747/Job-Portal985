@@ -1,0 +1,14 @@
+{
+    "name": "job-portal-root",
+    "version": "1.0.0",
+    "description": "Root for Job Portal Application",
+    "main": "index.js",
+    "scripts": {
+        "frontend": "cd frontend && npm run dev",
+        "backend": "cd backend && npm run dev",
+        "dev": "concurrently \"npm run backend\" \"npm run frontend\""
+    },
+    "devDependencies": {
+        "concurrently": "^8.2.1"
+    }
+}
